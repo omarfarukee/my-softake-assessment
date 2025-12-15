@@ -174,8 +174,8 @@ export default function HeroSection() {
       {/* Bottom Controls (unchanged) */}
 
       {/* Bottom Controls */}
-      <div className="absolute md:bottom-[4vh] bottom-[10%] left-0 right-0 z-50 flex justify-between items-center px-[2vw] py-[2vw]">
-        <div className="flex gap-[1.2vw] ml-[3vw]">
+      <div className="absolute md:bottom-[4vh] bottom-[10%] left-0 right-0 z-50 flex md:justify-between justify-center items-center px-[2vw] py-[2vw]">
+        <div className="md:flex gap-[1.2vw] ml-[3vw] hidden">
           <SlSocialFacebook className="text-[1.4vw] text-white/70 hover:text-white duration-300 cursor-pointer" />
           <CiTwitter  className="text-[1.4vw] text-white/70 hover:text-white duration-300 cursor-pointer" />
           <PiInstagramLogoLight className="text-[1.4vw] text-white/70 hover:text-white duration-300 cursor-pointer" />
