@@ -12,21 +12,35 @@ import Link from 'next/link';
 const slides = [
   {
     id: 1,
-    image: 'https://images.pexels.com/photos/1612351/pexels-photo-1612351.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    image: '/images/pic1.jpeg',
     title: 'Take Your Snow Days to the Next Level',
     description:
       'Unlock a wealth of detailed stats (and bragging rights) about your days skiing and snowboarding. Know what to expect with condition reports and trail maps for resorts around the world.',
   },
   {
     id: 2,
-    image: 'https://images.pexels.com/photos/1578750/pexels-photo-1578750.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    image: '/images/pic2.jpeg',
     title: 'Make Every Run on the Mountain Count',
     description:
       'Every day on the mountain tells a story—capture yours with detailed run tracking, performance stats, and global resort insights that keep you prepared for whatever the slopes bring.',
   },
   {
     id: 3,
-    image: 'https://images.pexels.com/photos/773594/pexels-photo-773594.jpeg?auto=compress&cs=tinysrgb&w=1920',
+    image: '/images/pic3.jpeg',
+    title: 'Transform Your Time in the Snow Into Something Extraordinary',
+    description:
+      'Ride smarter, push harder, and celebrate every milestone with powerful performance insights, live condition updates, and detailed trail maps that bring every resort within reach.',
+  },
+  {
+    id: 4,
+    image: '/images/pic4.jpeg',
+    title: 'Transform Your Time in the Snow Into Something Extraordinary',
+    description:
+      'Ride smarter, push harder, and celebrate every milestone with powerful performance insights, live condition updates, and detailed trail maps that bring every resort within reach.',
+  },
+  {
+    id: 5,
+    image: '/images/pic5.jpeg',
     title: 'Transform Your Time in the Snow Into Something Extraordinary',
     description:
       'Ride smarter, push harder, and celebrate every milestone with powerful performance insights, live condition updates, and detailed trail maps that bring every resort within reach.',
