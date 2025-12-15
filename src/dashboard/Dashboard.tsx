@@ -18,7 +18,6 @@ export default function Dashboard() {
 
   return (
     <div className="bg-[#f9fafb] min-h-screen overflow-hidden">
-      {/* TOP HEADER (UNCHANGED) */}
       <div className="h-[10vh] flex items-center px-[4vw] md:px-[2vw] bg-white">
         <div className="w-[50vw] md:w-[20vw]">
           <img src="/images/logo2.jpeg" className="w-[20vw] md:w-[7vw]" alt="logo" />
@@ -35,10 +34,9 @@ export default function Dashboard() {
         </div>
       </div>
 
-      {/* BODY WRAPPER */}
+
       <div className="relative flex mt-[0.7vw]">
 
-        {/* MOBILE OVERLAY */}
         {sidebarOpen && (
           <div
             onClick={() => setSidebarOpen(false)}
@@ -72,7 +70,6 @@ export default function Dashboard() {
             md:${sidebarOpen ? "w-[85vw] ml-[15vw]" : "w-screen ml-0"}
           `}
         >
-          {/* MENU / SEARCH HEADER */}
           <div className="bg-white border-b border-gray-200 px-[4vw] md:px-[2vw] py-[1.5vh] flex items-center justify-between">
             <div className="flex items-center grow">
               <button
@@ -108,8 +105,6 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-
-          {/* MAIN CONTENT */}
           <div className="p-[4vw] md:p-0">
             <DashboardOverview />
           </div>

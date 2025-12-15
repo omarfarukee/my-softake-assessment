@@ -12,8 +12,6 @@ const Navbar2 = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [mobileSubmenuOpen, setMobileSubmenuOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
-
-  /* Close desktop dropdown when clicking outside */
   useEffect(() => {
     const handleClickOutside = (e: MouseEvent) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target as Node)) {
@@ -26,9 +24,8 @@ const Navbar2 = () => {
 
   return (
     <>
-      {/* ================= DESKTOP NAVBAR (UNCHANGED) ================= */}
       <nav className="px-[5vw] pt-[2vh] flex items-center justify-between relative">
-        {/* Logo */}
+  
         <div className="flex items-center">
           <img src="/images/logo.jpeg" className="md:w-[2vw] object-cover" alt="Logo" />
           <span className="text-green-800 font-bold md:text-[2vw]">
@@ -36,9 +33,8 @@ const Navbar2 = () => {
           </span>
         </div>
 
-        {/* Navigation Links */}
         <div className="hidden md:flex flex-wrap justify-center gap-[1vw] text-green-800 font-medium">
-          {/* HOME with dropdown */}
+
           <div
             className="relative"
             onMouseEnter={() => setIsHomeHovered(true)}
@@ -99,7 +95,6 @@ const Navbar2 = () => {
           Get An Appointment <FaArrowRight />
         </button>
 
-        {/* MOBILE HAMBURGER */}
         <button
           className="md:hidden text-green-800 text-[6vw]"
           onClick={() => setMobileMenuOpen(true)}

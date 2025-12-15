@@ -98,7 +98,6 @@ export default function HeroSection() {
         <div className="absolute inset-0 bg-black/50" />
       </div>
 
-      {/* Navbar (unchanged) */}
       <nav className="absolute top-0 left-0 right-0 z-50 flex items-center justify-between md:px-[4vw] md:py-[1.5vw] px-2 py-5">
         <button className="text-white md:p-[0.5vw] rounded-[0.5vw] hover:bg-white/10">
           <BiMenu className="md:text-[1.5vw] text-3xl" />
@@ -171,9 +170,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Bottom Controls (unchanged) */}
 
-      {/* Bottom Controls */}
       <div className="absolute md:bottom-[4vh] bottom-[10%] left-0 right-0 z-50 flex md:justify-between justify-center items-center px-[2vw] py-[2vw]">
         <div className="md:flex gap-[1.2vw] ml-[3vw] hidden">
           <SlSocialFacebook className="text-[1.4vw] text-white/70 hover:text-white duration-300 cursor-pointer" />

@@ -72,9 +72,8 @@ useEffect(() => {
             <div className="relative">
 
                 {/* context */}
-              {/* LEFT CONTENT */}
                 <div className="md:w-[40vw] md:h-[60vh] w-full absolute  md:top-[25vh]  top-[10vh] left-[5vw] md:flex pt-[5vh] flex-col gap-[2vw]">
-                    <h1 className='md:text-[3vw] font-bold text-5xl'>Our Supper Heroes</h1>
+                    <h1 className='md:text-[3vw] font-bold text-4xl w-[90%]'>Our Supper Heroes</h1>
                     <AnimatePresence mode="wait">
                         <motion.h1
                             key={heroes[activeIndex].title}
@@ -101,7 +100,7 @@ useEffect(() => {
                         </motion.p>
                     </AnimatePresence>
                 </div>
-                {/* Background Circle */}
+
                 <div className="absolute md:block hidden bg-[#d9d9d9] h-[60vw] w-[60vw] rounded-full right-[-30vw] top-[30vh]" />
                 <div className='flex md:hidden  justify-center h-[75vw] w-full relative'>
                      <div className="absolute bg-[#d9d9d9] h-full w-[75vw] rounded-full top-[60vh]" />

@@ -4,7 +4,7 @@ import { FaHome, FaBuilding, FaUserTie, FaGraduationCap, FaUsers, FaMapMarkerAlt
 import { useState } from 'react';
 
 const SidebarMenu = () => {
-  const [activeItem, setActiveItem] = useState('Dashboard'); // Default active
+  const [activeItem, setActiveItem] = useState('Dashboard'); 
 
   const menuItems = [
     { label: 'Overview', icon: FaHome, key: 'Overview' },

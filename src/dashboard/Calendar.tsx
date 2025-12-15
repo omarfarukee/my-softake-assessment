@@ -46,7 +46,7 @@ const Calendar = () => {
 
   return (
     <div className="bg-white rounded-2xl shadow-sm md:h-[46vh] w-full md:w-[40vw] flex flex-col overflow-hidden">
-      {/* Header */}
+
       <div className="px-4 md:px-[2vw] pt-3 pb-2 flex items-center justify-between">
         <h2 className="text-sm md:text-[1vw] font-medium text-gray-600">{monthYear}</h2>
         <div className="flex space-x-2 md:space-x-[0.8vw]">
@@ -59,7 +59,7 @@ const Calendar = () => {
         </div>
       </div>
 
-      {/* Weekdays */}
+
       <div className="px-4 md:px-[2vw] grid grid-cols-7 gap-1 md:gap-[0.5vw] mb-1">
         {['S', 'M', 'T', 'W', 'T', 'F', 'S'].map((d, i) => (
           <div key={i} className="text-center text-xs md:text-[0.8vw] text-gray-500 font-medium">
@@ -68,7 +68,7 @@ const Calendar = () => {
         ))}
       </div>
 
-      {/* Days */}
+
       <div className="grow px-4 md:px-[2vw] pb-2">
         <div className="grid grid-cols-7 gap-1 md:gap-[0.5vw]">
           {days.map((day, index) => (

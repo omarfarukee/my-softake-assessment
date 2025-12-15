@@ -59,7 +59,6 @@ const InstitutionOverview = () => {
 
   return (
     <div className="p-[4vw] md:p-[2vw] w-full md:w-[50vw] rounded-2xl mt-[1vh] bg-white">
-      {/* Header */}
       <h2 className="text-[5vw] md:text-[1.5vw] font-bold text-gray-800">
         Institution Overview
       </h2>
