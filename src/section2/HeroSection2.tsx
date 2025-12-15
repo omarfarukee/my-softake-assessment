@@ -73,7 +73,7 @@ useEffect(() => {
 
                 {/* context */}
               {/* LEFT CONTENT */}
-                <div className="md:w-[40vw] md:h-[60vh] w-full absolute  md:top-[25vh] top-[10vh] left-[5vw] md:flex pt-[10vh] flex-col gap-[2vw]">
+                <div className="md:w-[40vw] md:h-[60vh] w-full absolute  md:top-[25vh]  top-[10vh] left-[5vw] md:flex pt-[5vh] flex-col gap-[2vw]">
                     <h1 className='md:text-[3vw] font-bold text-5xl'>Our Supper Heroes</h1>
                     <AnimatePresence mode="wait">
                         <motion.h1
@@ -104,11 +104,11 @@ useEffect(() => {
                 {/* Background Circle */}
                 <div className="absolute md:block hidden bg-[#d9d9d9] h-[60vw] w-[60vw] rounded-full right-[-30vw] top-[30vh]" />
                 <div className='flex md:hidden  justify-center h-[75vw] w-full relative'>
-                     <div className="absolute bg-[#d9d9d9] h-full w-[75vw] rounded-full top-[70vh]" />
+                     <div className="absolute bg-[#d9d9d9] h-full w-[75vw] rounded-full top-[60vh]" />
                 </div>
                
 
-                <div className="absolute md:h-screen  md:w-[50vw] w-full flex items-center justify-center md:top-[32vh] top-[90vh] md:right-[-21.5vw]">
+                <div className="absolute md:h-screen  md:w-[50vw] w-full flex items-center justify-center md:top-[32vh] top-[80vh] md:right-[-21.5vw]">
                     <div className="absolute">
                         <AnimatePresence>
                             {heroes.map((hero, index) => {

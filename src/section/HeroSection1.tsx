@@ -131,7 +131,7 @@ export default function HeroSection() {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: -40 }}
             transition={{ duration: 0.9, ease: 'easeOut' }}
-            className="md:w-[55%]   px-[6vw]  md:mb-[24vh] mt-[40%] md:mt-0  pl-[6vw]"
+            className="md:w-[55%]   px-[6vw]  md:mb-[24vh] mt-[30%] md:mt-0  pl-[6vw]"
           >
             <h1 className="md:text-[2.5vw] text-2xl font-bold text-white mb-[2vw] leading-tight">
               {slides[currentSlide].title}
@@ -148,7 +148,7 @@ export default function HeroSection() {
         </AnimatePresence>
 
         {/* Preview Cards */}
-        <div className="md:w-[45%]  flex justify-end pr-[1vw] md:mt-[30vh] mt-[25%] ">
+        <div className="md:w-[45%]  flex justify-end pr-[1vw] md:mt-[30vh] mt-[20%] ">
           <div className="flex gap-[1.5vw]">
             {[next1, next2].map((index) => (
               <motion.div
@@ -174,7 +174,7 @@ export default function HeroSection() {
       {/* Bottom Controls (unchanged) */}
 
       {/* Bottom Controls */}
-      <div className="absolute bottom-[4vh] left-0 right-0 z-50 flex justify-between items-center px-[2vw] py-[2vw]">
+      <div className="absolute md:bottom-[4vh] bottom-[10%] left-0 right-0 z-50 flex justify-between items-center px-[2vw] py-[2vw]">
         <div className="flex gap-[1.2vw] ml-[3vw]">
           <SlSocialFacebook className="text-[1.4vw] text-white/70 hover:text-white duration-300 cursor-pointer" />
           <CiTwitter  className="text-[1.4vw] text-white/70 hover:text-white duration-300 cursor-pointer" />
